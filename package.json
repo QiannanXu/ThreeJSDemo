@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --progress --colors --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint javascripts/"
+    "eslint": "eslint javascripts/",
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
